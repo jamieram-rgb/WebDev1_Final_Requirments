@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ShopNiJem | Register</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+        <h1>🛒 ShopNiJem</h1>
+    </div>
+
+    <nav>
+
+        <ul>
+
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="about.html">About</a></li>
+
+            <li><a href="products.html">Products</a></li>
+
+            <li><a href="services.html">Services</a></li>
+
+            <li><a href="register.html" class="active">Register</a></li>
+
+            <li><a href="login.html">Login</a></li>
+
+            <li><a href="contact.html">Contact</a></li>
+
+            <li><a href="checkout.html">Checkout</a></li>
+
+        </ul>
+
+    </nav>
+
+</header>
+
+<section class="page-banner">
+
+    <h1>Create Your Account</h1>
+
+    <p>Register to enjoy a better shopping experience.</p>
+
+</section>
+
+<section class="form-section">
+
+    <div class="form-container">
+
+        <h2>Registration Form</h2>
+
+        <form action="#" method="post">
+
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+
+            <label for="birthday">Birthday</label>
+            <input type="date" id="birthday" name="birthday" required>
+
+            <label>Gender</label>
+
+            <div class="gender">
+
+                <label>
+                    <input type="radio" name="gender" value="Male" required>
+                    Male
+                </label>
+
+                <label>
+                    <input type="radio" name="gender" value="Female">
+                    Female
+                </label>
+
+            </div>
+
+            <label for="address">Address</label>
+            <textarea id="address" name="address" rows="4" placeholder="Enter your complete address" required></textarea>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="example@email.com" required>
+
+            <label for="phone">Phone Number</label>
+            <input type="tel"
+                   id="phone"
+                   name="phone"
+                   pattern="[0-9]{11}"
+                   placeholder="09123456789"
+                   required>
+
+            <label for="username">Username</label>
+            <input type="text"
+                   id="username"
+                   name="username"
+                   minlength="5"
+                   required>
+
+            <label for="password">Password</label>
+            <input type="password"
+                   id="password"
+                   name="password"
+                   minlength="8"
+                   required>
+
+            <label for="confirm">Confirm Password</label>
+            <input type="password"
+                   id="confirm"
+                   name="confirm"
+                   minlength="8"
+                   required>
+
+            <div class="button-group">
+
+                <button type="submit" class="btn">
+                    Register
+                </button>
+
+                <button type="reset" class="btn reset-btn">
+                    Reset
+                </button>
+
+            </div>
+
+        </form>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <div class="footer-content">
+
+        <h3>ShopNiJem</h3>
+
+        <p>Your trusted online shopping website.</p>
+
+        <p>Email: jiremieramon@student.trimexcolleges.edu.ph</p>
+
+        <p>Phone: +63 992 738 3150</p>
+
+        <p>&copy; 2026 ShopNiJem. All Rights Reserved.</p>
+
+    </div>
+
+</footer>
+
+</body>
+
+</html>
